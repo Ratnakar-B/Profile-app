@@ -231,6 +231,7 @@ function Info() {
             </div>
             <div>
               <textarea
+                className="textArea"
                 cols="40"
                 rows="5"
                 placeholder="Type your message here..."
