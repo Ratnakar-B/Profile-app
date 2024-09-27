@@ -6,10 +6,10 @@ import Navbar from "react-bootstrap/Navbar";
 function Info() {
   return (
     <div className="main-container">
-      <Navbar className="nav-bar" collapseOnSelect expand="lg">
+      <Navbar className="navBar" collapseOnSelect expand="lg">
         <Container className="brandName">
           <Navbar.Brand className="name" href="#home">
-            Ratnakar B.
+            Ratnakar Baalkundhi
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -38,10 +38,10 @@ function Info() {
         <div className="sub-container">
           <h1>Hi There!</h1>
           <h2>I am Ratnakar Baalkundhi.</h2>
-          <p className="text">MERN Full Stack & React-Native Developer.</p>
+          <p className="text">MERN Full Stack & Mobile-App Developer.</p>
 
-          <button type="button">
-            <a href="#about">About Me 💻</a>
+          <button className="btn" type="button">
+            <a href="#about">About Me </a>
           </button>
         </div>
         <div>
@@ -58,7 +58,7 @@ function Info() {
         <div>
           <img
             className="pic"
-            src="./images/Ratnakar.jpeg"
+            src="https://9253440.fs1.hubspotusercontent-na1.net/hubfs/9253440/Young-modern-men-in-smart-casual-wear-shaking-hands-and-smiling-while-working-in-the-creative-office-how-to-introduce-yourself.jpg"
             alt="Ratnakar Baalkundhi"
             title="Ratnakar Baalkundhi"
           ></img>
@@ -69,24 +69,32 @@ function Info() {
               <h1>A Bit about Myself</h1>
             </summary>
             <p>
-              <strong>I am Ratnakar Baalkundhi</strong>, from Hyderabad, and I
+              {/* <strong>I am Ratnakar Baalkundhi</strong>, from Hyderabad, and I
               graduated with a Bachelor's in Mechanical Engineering in 2017. I
               have developed skills in HTML5, CSS3, JavaScript, React.js, Redux,
               TypeScript, Bootstrap, MERN stack, Sass, Git, GitHub, and React
               Native. My soft skills include effective communication, attention
               to detail, a strong willingness to learn, and the ability to work
-              both independently and in teams.
-              <br></br>
+              both independently and in teams. */}
               <br></br>
               <p>
-                I've completed personal projects like a Pulse application,
-                portfolio and music websites, e-commerce sites, and a fitness
-                app. I am fluent in English, Kannada, Hindi, and Telugu. My
-                career goal is to apply my technical skills in a dynamic
-                environment where I can contribute to innovative projects and
-                continuously grow. I am motivated, hardworking, and eager to
-                make a positive impact in the field of technology.
+                <strong>I am Ratnakar Baalkundhi</strong>, from Hyderabad,and I
+                am a Mobile Application Developer with 8 months of experience in
+                the IT industry, including 6 months as a full-stack programming
+                intern and 2 months focused on React Native and Android app
+                development. Skilled in building mobile applications,
+                integrating APIs, and optimizing performance. Proficient in the
+                MERN stack (MongoDB, Express.js, React.js, Node.js) with strong
+                abilities in UI, backend, and frontend development. A quick
+                learner, team player, and efficient problem solver.
               </p>
+              <div className="button">
+                <button className="submit-btn">
+                  <a href="./pdf/Ratnakar-Baalkundhi.pdf" download>
+                    Download Resume
+                  </a>
+                </button>
+              </div>
             </p>
           </details>
         </div>
@@ -131,7 +139,7 @@ function Info() {
           ></img>
           <img
             className="logo"
-            src="https://juststickers.in/wp-content/uploads/2019/07/nodejs.png"
+            src="https://media.licdn.com/dms/image/D4D12AQEMRsniqRINHw/article-cover_image-shrink_720_1280/0/1708799407006?e=2147483647&v=beta&t=hQm04GSLhJV_tGcJj1VA6vR6VuhsuhWU-OvJmcXLJY4"
             alt=""
           ></img>
           <img
@@ -167,7 +175,7 @@ function Info() {
 
           <img
             className="logo"
-            src="https://www.svgrepo.com/show/303251/mysql-logo.svg"
+            src="https://logowik.com/content/uploads/images/mysql.jpg"
             alt=""
           ></img>
           <img
@@ -193,7 +201,7 @@ function Info() {
       <div className="contact-container" id="contact">
         <div className="contact">
           <h1>Contact</h1>
-          <p>Email : ratnakarbaalkundhi@gmail.com</p>
+          <p> Email : ratnakarbaalkundhi@gmail.com</p>
           <p>Mobile # : +91- 7760604716 </p>
           <p>Location : Hyderabad,Telangana</p>
         </div>
@@ -243,11 +251,9 @@ function Info() {
               </button>
             </div>
           </form>
+          <p className="footer">@copyright 2024. All rights reserved. RB</p>
         </div>
       </div>
-      <p className="footer">
-        copyright 2024. All rights reserved. Ratnakar Baalkundhi
-      </p>
     </div>
   );
 }
